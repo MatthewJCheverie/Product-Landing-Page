@@ -1,13 +1,11 @@
 :root {
-  --background: rgb(68, 104, 146);
+  --background: rgb(41, 67, 97);
   --buttons: rgb(236, 177, 68);
-  --secondary-background: rgb(172, 165, 165);
+  --secondary-background: rgb(99, 95, 95);
   --text: white;
   
 }
 /** global element styling **/
-
-@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
 
 * {
   margin: 0;
@@ -17,7 +15,10 @@
 
 body {
   background-color: var(--background);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Kanit', sans-serif;
+}
+h2, p {
+  color: var(--text);
 }
 
 #page-wrapper {
@@ -67,6 +68,7 @@ header {
   align-items: center;
   background-color: var(--secondary-background);
   width: 100%;
+  color: var(--text);
 }
 
 @media (max-width: 600px) {
@@ -146,6 +148,7 @@ nav>ul {
   text-align: center;
   height: 200px;
   margin-top: 50px;
+  color: var(--text);
 }
 
 #hero>h2 {
@@ -249,6 +252,7 @@ nav>ul {
   margin: 10px;
   border: 1px solid #000;
   border-radius: 3px;
+  color: var(--text);
 }
 
 .product>.level {
